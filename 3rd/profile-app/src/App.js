@@ -6,7 +6,8 @@ import { getUserAPI } from "./lib/api";
 
 function App() {
   const [user, setUser] = React.useState(null);
-
+  
+  
   const getUser = async (username) => {
     const data = await getUserAPI(username);
 
