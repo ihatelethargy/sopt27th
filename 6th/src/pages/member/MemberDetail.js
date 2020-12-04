@@ -14,7 +14,7 @@ function MemberDetail({ match }) {
         member: null
     });
     useEffect(() => {
-        (async () => {
+        (async () => {  // map으로 받을때 생각하면서
             try {
                 setMemberState({ status: 'pending', member: null });
                 const data = await memberAPI.getMember(match.params.id);

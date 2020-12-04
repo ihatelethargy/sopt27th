@@ -4,7 +4,8 @@ import Button from '../button/Button';
 
 function MainHeader({ history }) {
     return (
-        <header className="main-header">
+        <header className="main-header"> 
+            {/* require로 하면 안되는 경우 & 이미지 여러개 import */}
             {/* <img src={ require('../../assets/icons/yilllogo.PNG') } /> */}
             <img className="main-header-icon" src={MenuIcon} alt="menu icon"/>
             <nav className="main-header__nav">

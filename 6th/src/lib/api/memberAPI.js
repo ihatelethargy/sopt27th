@@ -12,7 +12,7 @@ const getMembers = async () => {
         console.error('[FAIL] GET MEMBERS', e);
         throw e;
     }
-}
+} // data 순서 받고 순서 생각하기
 
 const getMember = async (id) => {
     try {

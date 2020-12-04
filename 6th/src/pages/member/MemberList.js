@@ -6,7 +6,7 @@ import Loading from '../../components/loading/Loading';
 
 import { getMembers, createMember } from '../../lib/api/memberAPI';
 
-function MemberList({ history, match }) {
+function MemberList({ history, match }) {  // 1:23 부터
     const [ membersState, setMembersState ] = useState({
         members: null,
         status: 'idle',
@@ -65,7 +65,7 @@ function MemberList({ history, match }) {
                         {membersState.members.map((member, i) =>
                             <Card key={"card-" + i} memberData={member}
                                 onDeleteCard={ () => setMembersState({
-                                    status: 'resolved',
+                                    status: 'resolved',  
                                     members: membersState.members.filter(mem => mem.id !== member.id)
                                 })}/>)}
                         <div className="create-card" onClick={ onClickCreateCard }>+ New</div>
