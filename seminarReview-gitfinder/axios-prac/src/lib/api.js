@@ -5,7 +5,7 @@ const client = axios.create({
 });
 
 const getUserAPI = async (username) => {
-  const data = await client.get(username);
+  const { data } = await client.get(username);
   return data;
 };
 

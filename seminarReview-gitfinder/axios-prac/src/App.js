@@ -9,20 +9,24 @@ const App = (props) => {
     status: "idle",
   });
 
-  const getUser = (username) => {
+  const getUser = async (username) => {
     console.log(username);
     setUserState({ ...userState, status: "pendding" });
 
     try {
+      const data = await getUserAPI(username);
+      setUserState({ user: data, status: "resolved" });
     } catch (error) {
+      setUserState({ user: null, status: "rejected" });
       console.log(error);
     }
   };
+  console.log(typeof userState.user);
 
   return (
     <>
       <SearchInput onSubmit={getUser} />
-      <SearchResult />
+      <SearchResult userState={userState} />
     </>
   );
 };
