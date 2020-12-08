@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import SearchInput from "./components/SearchInput";
 import SearchResult from "./components/SearchResult";
 import getUserAPI from "./lib/api";
+import "./App.css";
+
 
 const App = (props) => {
   const [userState, setUserState] = useState({
@@ -27,6 +29,7 @@ const App = (props) => {
     <>
       <SearchInput onSubmit={getUser} />
       <SearchResult userState={userState} />
+      
     </>
   );
 };

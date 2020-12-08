@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "./card/Card";
+import Loading from "./loading/Loading";
 
 const SearchResult = ({ userState }) => {
   const { user, status } = userState;
@@ -7,10 +9,18 @@ const SearchResult = ({ userState }) => {
 
   switch (status) {
     case "pendding":
-      return <>Loadding...</>;
+      return (
+        <>
+          <Loading />
+        </>
+      );
 
     case "resolved":
-      return <>{user.login}</>;
+      return (
+        <>
+          <Card user={user} />
+        </>
+      );
 
     case "rejected":
     default:
