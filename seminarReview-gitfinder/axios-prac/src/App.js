@@ -4,7 +4,6 @@ import SearchResult from "./components/SearchResult";
 import getUserAPI from "./lib/api";
 import "./App.css";
 
-
 const App = (props) => {
   const [userState, setUserState] = useState({
     user: null,
@@ -23,13 +22,14 @@ const App = (props) => {
       console.log(error);
     }
   };
-  console.log(typeof userState.user);
+  console.log(userState.user);
 
   return (
     <>
-      <SearchInput onSubmit={getUser} />
-      <SearchResult userState={userState} />
-      
+      <div className="mainWrapper">
+        <SearchInput onSubmit={getUser} />
+        <SearchResult userState={userState} />
+      </div>
     </>
   );
 };
