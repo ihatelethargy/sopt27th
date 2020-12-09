@@ -15,6 +15,7 @@ const SearchResult = ({ userState }) => {
     case "rejected":
     default:
       return <></>;
+      a;
   }
 };
 
