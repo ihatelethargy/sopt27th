@@ -32,9 +32,6 @@ const MemberList = (props) => {
           status: "rejected",
         });
       }
-
-      //   console.log(result.data);
-      //   setMembers(result.data);
     })();
   }, []); // 처음에 리스트만 보여줄거니까 기본으로 해도 괜찮
 

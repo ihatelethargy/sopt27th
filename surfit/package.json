@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.21.0",
     "node-sass": "4",
     "react-router-dom": "^5.2.0",
     "sass-loader": "^10.1.0",

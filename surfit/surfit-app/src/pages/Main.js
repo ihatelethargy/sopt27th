@@ -1,7 +1,12 @@
 import React from "react";
+import "./Main.scss";
 
 const Main = (props) => {
-  return <>Main</>;
+  return (
+    <>
+      <div className="mainWrapper">Main</div>
+    </>
+  );
 };
 
 export default Main;
