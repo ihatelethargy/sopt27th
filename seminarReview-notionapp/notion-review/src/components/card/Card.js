@@ -6,7 +6,13 @@ const Card = ({ memberData }) => {
   return (
     <div className="card" draggable>
       <div className="remove-button"></div>
-      <img className="image-area" src={memberData.profileUrl} alt="memberImg" />
+      <div className="image-area">
+        {memberData.profileUrl === "" ? (
+          "No Img"
+        ) : (
+          <img src={memberData.profileUrl} alt="memberImg" />
+        )}
+      </div>
       <div className="card__content card__text name">{memberData.name}</div>
       <div className="card__content card__text instagram">
         {memberData.instagram}
