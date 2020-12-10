@@ -10,11 +10,9 @@ const MemberList = (props) => {
   // useEffect에서 async바로 못 단다. 따라서 내부에 async await으로 만들어주자! 이후 즉시 실행 함수 (()=>{})()
   useEffect(() => {
     (async () => {
-      const result = await axios.get(
-        "http://localhost/data"
-        // "https://jsonplaceholder.typicode.com/todos/1"
-      );
-      console.log(result);
+      const result = await axios.get("http://localhost/data");
+      console.log(result.data);
+      setMember(result.data);
     })();
   }, []); // 처음에 리스트만 보여줄거니까 기본으로 해도 괜찮
 
@@ -32,38 +30,11 @@ const MemberList = (props) => {
       </div>
       <hr />
       <div className="member-list-content-wrapper">
-        <Card
-          memberData={{
-            name: "정재현",
-            instagram: "jemian.js",
-            introduce: "hi",
-            mbti: "enfj",
-          }}
-        />
-        <Card
-          memberData={{
-            name: "정재현",
-            instagram: "jemian.js",
-            introduce: "hi",
-            mbti: "enfj",
-          }}
-        />
-        <Card
-          memberData={{
-            name: "정재현",
-            instagram: "jemian.js",
-            introduce: "hi",
-            mbti: "enfj",
-          }}
-        />
-        <Card
-          memberData={{
-            name: "정재현",
-            instagram: "jemian.js",
-            introduce: "hi",
-            mbti: "enfj",
-          }}
-        />
+      {member.map(item => {
+        return(<Card memberData={item}/>)
+      })}
+        
+        
       </div>
     </div>
   );
