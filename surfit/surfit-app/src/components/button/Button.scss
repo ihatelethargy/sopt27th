@@ -1,0 +1,12 @@
+.btnText {
+  border: none;
+  outline: none;
+  background-color: #24272b;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  &:hover {
+    background-color: gray;
+    color: #000;
+  }
+}
