@@ -2,67 +2,67 @@
   "data": [
     {
       "id": 0,
-      "name": "정재현",
-      "profileUrl": "1",
-      "introduction": "1",
-      "mbti": "1",
-      "instagram": "1"
+      "name": "홍준엽",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0397001c-9f37-4c0c-855f-dce17d1f3727/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T081656Z&X-Amz-Expires=86400&X-Amz-Signature=58875ec24f06421599ad0dc3f6e22529419f8eac2f414705e72d9fcc57c7ce19&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
+      "introduction": "안녕하세요!",
+      "mbti": "ESTJ",
+      "instagram": "__juuyp"
     },
     {
       "id": 1,
-      "name": "3",
-      "profileUrl": "3",
-      "introduction": "3",
-      "mbti": "3",
-      "instagram": "3"
+      "name": "이정연",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/160f3ffa-9945-4d89-9e7d-3bcc9341cd96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T081820Z&X-Amz-Expires=86400&X-Amz-Signature=2420a91f022735edbb42b2a692ba1d07208c28ebb60992ffe4c4291f64a4b7c0&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
+      "introduction": "저도 놀아주세요",
+      "mbti": "ENFJ",
+      "instagram": "parang_jy"
     },
     {
       "id": 2,
-      "name": "천주윤",
-      "profileUrl": "...",
-      "introduction": "안녕하세요",
+      "name": "이정욱",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/273a9e40-6878-494c-be43-3970ff5996d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T081927Z&X-Amz-Expires=86400&X-Amz-Signature=e62e7cd1f6e73a0a3998531bc89075f6c575d25f63c7b8c3ed95f9c2c50e39f4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
+      "introduction": "웹파트짱!",
       "mbti": "ENTP",
-      "instagram": "?"
+      "instagram": "jungwook_pg"
     },
     {
       "id": 3,
-      "name": "천주윤",
-      "profileUrl": "...",
+      "name": "김승미",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c7004d1c-7981-4291-bc49-b31650017804/20201107_180415.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082015Z&X-Amz-Expires=86400&X-Amz-Signature=22a91981696ef300b0f6ddd76188196d5bc888b79e2e4782b7f511c5b05edbfa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2220201107_180415.jpg%22",
       "introduction": "안녕하세요",
       "mbti": "ENTP",
-      "instagram": "?"
+      "instagram": "ksmself52"
     },
     {
       "id": 4,
-      "name": "천주윤",
-      "profileUrl": "...",
-      "introduction": "안녕하세요",
-      "mbti": "ENTP",
-      "instagram": "?"
+      "name": "이준호",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0afe9b2d-4daa-4f7d-92b6-dc9de6961e34/beauty_1603528755626.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082125Z&X-Amz-Expires=86400&X-Amz-Signature=e8fdc22a49d74d5866fa10bb0e63681844172eca7793a16097021e2a0e55c50a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22beauty_1603528755626.jpg%22",
+      "introduction": "기만자 여러분들에게 배우려고 왔습니다",
+      "mbti": "ESFJ",
+      "instagram": "juno_96"
     },
     {
       "id": 5,
-      "name": "천주윤",
-      "profileUrl": "...",
+      "name": "김민지",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4280e292-95cc-4c46-a865-a4d032382aa0/78B14E31-4096-4575-88BD-2B46DDCD1FAE.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082207Z&X-Amz-Expires=86400&X-Amz-Signature=b5ab387993443db9570f4da96f0eaa1796daaf0fbcf1ebef9017b9b981ec2401&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2278B14E31-4096-4575-88BD-2B46DDCD1FAE.jpeg%22",
       "introduction": "안녕하세요",
-      "mbti": "ENTP",
-      "instagram": "?"
+      "mbti": "ISFJ",
+      "instagram": "kmnzxz"
     },
     {
       "id": 6,
-      "name": "천주윤",
-      "profileUrl": "...",
-      "introduction": "안녕하세요",
-      "mbti": "ENTP",
-      "instagram": "?"
+      "name": "정재현",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dc63e084-5236-494c-b48b-203bcbb2b50d/2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082252Z&X-Amz-Expires=86400&X-Amz-Signature=c85361d3797eeb52b433cd23f3cbf44366871d0b257c615c489703b3e68aac0b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222.jpg%22",
+      "introduction": "친해지고싶어요",
+      "mbti": "ENFJ",
+      "instagram": "jemian.js"
     },
     {
       "id": 7,
-      "name": "천주윤",
-      "profileUrl": "...",
-      "introduction": "안녕하세요",
-      "mbti": "ENTP",
-      "instagram": "?"
+      "name": "현주희",
+      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9bcd592-e6b0-4e0f-8a15-2a98141e7785/KakaoTalk_20200601_211126600_03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082345Z&X-Amz-Expires=86400&X-Amz-Signature=a24a6c1ac207a3f6ffdec7633a99703b774f8ba5dabcc90a79993432cbc1b1c8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_20200601_211126600_03.jpg%22",
+      "introduction": "안녕하세요~~!",
+      "mbti": "ESFJ",
+      "instagram": "hyun_juhi"
     }
   ]
 }
