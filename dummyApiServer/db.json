@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "정재현",
+      "profileUrl": "1",
+      "introduction": "1",
+      "mbti": "1",
+      "instagram": "1"
+    },
+    {
+      "id": 1,
+      "name": "3",
+      "profileUrl": "3",
+      "introduction": "3",
+      "mbti": "3",
+      "instagram": "3"
+    },
+    {
+      "id": 2,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    },
+    {
+      "id": 3,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    },
+    {
+      "id": 4,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    },
+    {
+      "id": 5,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    },
+    {
+      "id": 6,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    },
+    {
+      "id": 7,
+      "name": "천주윤",
+      "profileUrl": "...",
+      "introduction": "안녕하세요",
+      "mbti": "ENTP",
+      "instagram": "?"
+    }
+  ]
+}

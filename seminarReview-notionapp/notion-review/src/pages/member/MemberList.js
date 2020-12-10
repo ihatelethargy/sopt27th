@@ -5,17 +5,19 @@ import Card from "../../components/card/Card";
 import "./MemberList.scss";
 
 const MemberList = (props) => {
-  const [member, setMember] = useEffect([]);
+  const [member, setMember] = useState([]);
 
+  // useEffect에서 async바로 못 단다. 따라서 내부에 async await으로 만들어주자! 이후 즉시 실행 함수 (()=>{})()
   useEffect(() => {
-    // useEffect에서 async바로 못 단다. 따라서 내부에 async await으로 만들어주자! 이후 즉시 실행 함수 (()=>{})()
     (async () => {
       const result = await axios.get(
-        "http://ec2-13-124-127-8.ap-northeast-2.compute.amazonaws.com:3000"
+        "http://localhost/data"
+        // "https://jsonplaceholder.typicode.com/todos/1"
       );
       console.log(result);
     })();
   }, []); // 처음에 리스트만 보여줄거니까 기본으로 해도 괜찮
+
   return (
     <div className="member-list">
       <div className="member-list__title">파트원 소개</div>
