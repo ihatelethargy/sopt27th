@@ -1,3 +1,4 @@
+import { DeleteOutlined } from "@ant-design/icons";
 import React from "react";
 import "./Card.scss";
 
@@ -5,7 +6,9 @@ const Card = ({ memberData }) => {
   console.log(memberData.name);
   return (
     <div className="card" draggable>
-      <div className="remove-button"></div>
+      <div className="remove-button">
+        <DeleteOutlined />
+      </div>
       <div className="image-area">
         {memberData.profileUrl === "" ? (
           "No Img"
