@@ -10,7 +10,7 @@ const Member = ({ match }) => {
         <Route exact path={match.path} component={MemberList} />
         <Route path={`${match.path}/:id`} component={MemberDetail} />
       </Switch>
-    </section>
+    </section>//
   );
 };
 
