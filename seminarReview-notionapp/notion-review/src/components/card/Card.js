@@ -1,11 +1,19 @@
 import { DeleteOutlined } from "@ant-design/icons";
 import React from "react";
+import { Link, Route, useHistory } from "react-router-dom";
 import "./Card.scss";
+import { withRouter } from "react-router-dom";
 
-const Card = ({ memberData }) => {
+const Card = ({ memberData, history }) => {
   console.log(memberData.name);
+  console.log(history); // histiry는 route로 온 녀석만 쓸 수 있다.
+
   return (
-    <div className="card" draggable>
+    <div
+      className="card"
+      onClick={() => history.push(`/members/${memberData.id}`)}
+      draggable
+    >
       <div className="remove-button">
         <DeleteOutlined />
       </div>
@@ -28,4 +36,4 @@ const Card = ({ memberData }) => {
   );
 };
 
-export default Card;
+export default withRouter(Card);

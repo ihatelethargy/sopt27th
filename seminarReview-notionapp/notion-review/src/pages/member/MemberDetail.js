@@ -1,10 +1,13 @@
-import React from 'react';
+import { Switch } from "antd";
+import React from "react";
+import { Route } from "react-router-dom";
 
-const MemberDetail = (props) => {
-
-    return(
-        <span>Member Detail</span>
-    )
+const MemberDetail = ({ match }) => {
+  return (
+    
+      <span>Member Detail</span>
+    
+  );
 };
 
 export default MemberDetail;

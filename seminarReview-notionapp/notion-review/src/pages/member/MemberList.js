@@ -5,7 +5,7 @@ import Card from "../../components/card/Card";
 import "./MemberList.scss";
 import Loading from "../../components/loading/Loading";
 
-const MemberList = (props) => {
+const MemberList = () => {
   //const [members, setMembers] = useState(null);
   const [membersState, setMembersState] = useState({
     members: null,
