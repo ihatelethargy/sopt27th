@@ -10,9 +10,10 @@ function MemberList({ history, match }) {
     status: "idle",
     members: null,
   });
-
+  // api.test();
   useEffect(() => {
     (async () => {
+      // console.log(api.getMember(3));
       setMemberState({
         status: "pending",
         members: null,
