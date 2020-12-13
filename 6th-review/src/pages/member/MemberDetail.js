@@ -33,6 +33,24 @@ const MemberDetail = ({ match }) => {
     })();
   }, [match.params.id]);
 
+  const onChangeInputs = async (evt) => {
+    const { name, value } = evt.target;
+    try {
+      await api.updateMember(match.params.id, {
+        ...memberState.member,
+        [name]: value,
+      });
+      setMemberState({
+        status: "resolved",
+        member: {
+          ...memberState.member,
+          [name]: value,
+        },
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  };
 
   switch (memberState.status) {
     case "pending":
@@ -54,6 +72,7 @@ const MemberDetail = ({ match }) => {
             className="member-detail__content name"
             name="name"
             value={memberState.member.name}
+            onChange={onChangeInputs}
           />
           <hr style={{ borderTop: "solid 1px #eee", marginBottom: "24px" }} />
           <div className="member-detail__content">
@@ -62,6 +81,7 @@ const MemberDetail = ({ match }) => {
               className="content-input"
               name="instagram"
               value={memberState.member.instagram}
+              onChange={onChangeInputs}
             />
           </div>
           <div className="member-detail__content">
@@ -70,6 +90,7 @@ const MemberDetail = ({ match }) => {
               className="content-input"
               name="introduction"
               value={memberState.member.introduction}
+              onChange={onChangeInputs}
             />
           </div>
           <div className="member-detail__content">
@@ -78,6 +99,7 @@ const MemberDetail = ({ match }) => {
               className="content-input"
               name="mbti"
               value={memberState.member.mbti}
+              onChange={onChangeInputs}
             />
           </div>
           <div className="member-detail__content">
