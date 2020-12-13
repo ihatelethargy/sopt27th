@@ -3,22 +3,22 @@
     {
       "id": 0,
       "name": "홍준엽",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0397001c-9f37-4c0c-855f-dce17d1f3727/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201213%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201213T073537Z&X-Amz-Expires=86400&X-Amz-Signature=3db672c9ddbf760323c837989405275a12986e8700278070e510c2fa8c8eaf5c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
+      "profileUrl": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F160f3ffa-9945-4d89-9e7d-3bcc9341cd96%2FUntitled.png?table=block&id=b65faa1d-a5ec-49a2-8da7-ecb642440a03&width=3840&userId=5dba3764-6635-4f8b-bfbb-b826d262aa7e&cache=v2",
       "introduction": "안녕하세요!",
       "mbti": "ESTJ",
       "instagram": "__juuyp"
     },
     {
       "id": 1,
-      "name": "이정연",
+      "name": "이정연ddd",
       "profileUrl": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F160f3ffa-9945-4d89-9e7d-3bcc9341cd96%2FUntitled.png?table=block&id=b65faa1d-a5ec-49a2-8da7-ecb642440a03&width=3840&userId=5dba3764-6635-4f8b-bfbb-b826d262aa7e&cache=v2",
       "introduction": "저도 놀아주세요",
       "mbti": "ENFJ",
-      "instagram": "parang_jy"
+      "instagram": "parang_jyff"
     },
     {
       "id": 2,
-      "name": "이정욱",
+      "name": "김정욱",
       "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/273a9e40-6878-494c-be43-3970ff5996d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T081927Z&X-Amz-Expires=86400&X-Amz-Signature=e62e7cd1f6e73a0a3998531bc89075f6c575d25f63c7b8c3ed95f9c2c50e39f4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
       "introduction": "웹파트짱!",
       "mbti": "ENTP",
@@ -57,20 +57,20 @@
       "instagram": "jemian.js"
     },
     {
-      "id": 7,
-      "name": "현주희",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b9bcd592-e6b0-4e0f-8a15-2a98141e7785/KakaoTalk_20200601_211126600_03.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082345Z&X-Amz-Expires=86400&X-Amz-Signature=a24a6c1ac207a3f6ffdec7633a99703b774f8ba5dabcc90a79993432cbc1b1c8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22KakaoTalk_20200601_211126600_03.jpg%22",
-      "introduction": "안녕하세요~~!",
-      "mbti": "ESFJ",
-      "instagram": "hyun_juhi"
+      "name": "NAME",
+      "profileUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png",
+      "introduction": "INTRODUCTION",
+      "mbti": "MBTI",
+      "instagram": "INSTAGRAM",
+      "id": 9
     },
     {
-      "id": 8,
-      "name": "바보",
-      "profileUrl": "",
-      "introduction": "저는 이미지가 없어요",
-      "mbti": "ESFJ",
-      "instagram": "noImgeGuy"
+      "name": "POST로 새로만들었어요",
+      "profileUrl": "쌔유아랠",
+      "introduction": "하위하위",
+      "mbti": "썌꺼임",
+      "instagram": "썌꺼",
+      "id": 11
     }
   ]
 }
