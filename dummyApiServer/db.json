@@ -19,7 +19,7 @@
     {
       "id": 2,
       "name": "김정욱",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/273a9e40-6878-494c-be43-3970ff5996d4/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T081927Z&X-Amz-Expires=86400&X-Amz-Signature=e62e7cd1f6e73a0a3998531bc89075f6c575d25f63c7b8c3ed95f9c2c50e39f4&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22",
+      "profileUrl": "https://post-phinf.pstatic.net/MjAyMDAxMjhfMTM4/MDAxNTgwMTk5MjQ5NDg1.G4i58SRwMBGo9VYMrvxa1oKnzDrBlMB9zzq2Simd3Lwg.IA9GoThxbq1oS_FeeGMQ07CN-GFkDnlVjzjG1PVpbu8g.JPEG/%EC%98%A4%EB%AA%A9%EB%88%88%EC%9D%B4.JPG?type=w1200",
       "introduction": "웹파트짱!",
       "mbti": "ENTP",
       "instagram": "jungwook_pg"
@@ -27,7 +27,7 @@
     {
       "id": 3,
       "name": "김승미",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c7004d1c-7981-4291-bc49-b31650017804/20201107_180415.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082015Z&X-Amz-Expires=86400&X-Amz-Signature=22a91981696ef300b0f6ddd76188196d5bc888b79e2e4782b7f511c5b05edbfa&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2220201107_180415.jpg%22",
+      "profileUrl": "https://post-phinf.pstatic.net/MjAyMDAxMjhfMTM4/MDAxNTgwMTk5MjQ5NDg1.G4i58SRwMBGo9VYMrvxa1oKnzDrBlMB9zzq2Simd3Lwg.IA9GoThxbq1oS_FeeGMQ07CN-GFkDnlVjzjG1PVpbu8g.JPEG/%EC%98%A4%EB%AA%A9%EB%88%88%EC%9D%B4.JPG?type=w1200",
       "introduction": "안녕하세요",
       "mbti": "ENTP",
       "instagram": "ksmself52"
@@ -35,42 +35,18 @@
     {
       "id": 4,
       "name": "이준호",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/0afe9b2d-4daa-4f7d-92b6-dc9de6961e34/beauty_1603528755626.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082125Z&X-Amz-Expires=86400&X-Amz-Signature=e8fdc22a49d74d5866fa10bb0e63681844172eca7793a16097021e2a0e55c50a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22beauty_1603528755626.jpg%22",
+      "profileUrl": "https://post-phinf.pstatic.net/MjAyMDAxMjhfMTM4/MDAxNTgwMTk5MjQ5NDg1.G4i58SRwMBGo9VYMrvxa1oKnzDrBlMB9zzq2Simd3Lwg.IA9GoThxbq1oS_FeeGMQ07CN-GFkDnlVjzjG1PVpbu8g.JPEG/%EC%98%A4%EB%AA%A9%EB%88%88%EC%9D%B4.JPG?type=w1200",
       "introduction": "기만자 여러분들에게 배우려고 왔습니다",
       "mbti": "ESFJ",
       "instagram": "juno_96"
     },
     {
-      "id": 5,
-      "name": "김민지",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4280e292-95cc-4c46-a865-a4d032382aa0/78B14E31-4096-4575-88BD-2B46DDCD1FAE.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082207Z&X-Amz-Expires=86400&X-Amz-Signature=b5ab387993443db9570f4da96f0eaa1796daaf0fbcf1ebef9017b9b981ec2401&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%2278B14E31-4096-4575-88BD-2B46DDCD1FAE.jpeg%22",
-      "introduction": "안녕하세요",
-      "mbti": "ISFJ",
-      "instagram": "kmnzxz"
-    },
-    {
       "id": 6,
       "name": "정재현",
-      "profileUrl": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dc63e084-5236-494c-b48b-203bcbb2b50d/2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201210%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201210T082252Z&X-Amz-Expires=86400&X-Amz-Signature=c85361d3797eeb52b433cd23f3cbf44366871d0b257c615c489703b3e68aac0b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222.jpg%22",
+      "profileUrl": "https://post-phinf.pstatic.net/MjAyMDAxMjhfMTM4/MDAxNTgwMTk5MjQ5NDg1.G4i58SRwMBGo9VYMrvxa1oKnzDrBlMB9zzq2Simd3Lwg.IA9GoThxbq1oS_FeeGMQ07CN-GFkDnlVjzjG1PVpbu8g.JPEG/%EC%98%A4%EB%AA%A9%EB%88%88%EC%9D%B4.JPG?type=w1200",
       "introduction": "친해지고싶어요",
       "mbti": "ENFJ",
       "instagram": "jemian.js"
-    },
-    {
-      "name": "NAME",
-      "profileUrl": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png",
-      "introduction": "INTRODUCTION",
-      "mbti": "MBTI",
-      "instagram": "INSTAGRAM",
-      "id": 9
-    },
-    {
-      "name": "POST로 새로만들었어요",
-      "profileUrl": "쌔유아랠",
-      "introduction": "하위하위",
-      "mbti": "썌꺼임",
-      "instagram": "썌꺼",
-      "id": 11
     }
   ]
 }
