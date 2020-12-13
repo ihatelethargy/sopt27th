@@ -6,7 +6,7 @@ import Button from "../../components/button/Button";
 import Loading from "../../components/loading/Loading";
 
 function MemberList({ history, match }) {
-  const [membersState, setMemberState] = useState({
+  const [membersState, setMembersState] = useState({
     status: "idle",
     members: null,
   });
@@ -14,25 +14,41 @@ function MemberList({ history, match }) {
   useEffect(() => {
     (async () => {
       // console.log(api.getMember(3));
-      setMemberState({
+      setMembersState({
         status: "pending",
         members: null,
       });
       try {
         const result = await api.getMemberAPI();
-        setMemberState({
+        setMembersState({
           status: "resolved",
           members: result,
         });
       } catch (error) {
         console.log(error);
-        setMemberState({
+        setMembersState({
           status: "rejected",
           members: null,
         });
       }
     })();
   }, []);
+
+  const createCard = async () => {
+    try {
+      const result = await api.createMember({
+        name: "POST로 새로만들었어요",
+        profileUrl: "쌔유아랠",
+        introduction: "하위하위",
+        mbti: "tjtj",
+        instagram: "mamamam",
+      });
+      setMembersState({
+        status: "resolved",
+        members: [...membersState.members, result],
+      });
+    } catch (error) {}
+  };
 
   switch (membersState.status) {
     case "pending":
@@ -57,10 +73,12 @@ function MemberList({ history, match }) {
           </div>
           <hr />
           <div className="member-list-content-wrapper">
-            {membersState.members.map((member) => (
-              <Card memberData={member} />
+            {membersState.members.map((member, i) => (
+              <Card key={"card-" + i} memberData={member} />
             ))}
-            <div className="create-card">+ New</div>
+            <div className="create-card" onClick={createCard}>
+              + New
+            </div>
           </div>
         </div>
       );

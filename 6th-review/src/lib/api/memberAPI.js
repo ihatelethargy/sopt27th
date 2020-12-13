@@ -27,17 +27,29 @@ const updateMember = async (id, member) => {
   try {
     const { data } = await axios.put(`${url}/${id}`, member);
     console.log("[SUCCESS] UPDATE MEMBER");
+    return data; //
   } catch (e) {
     console.log("[FAIL] UPDATE MEMBER");
   }
 };
 
-export { getMemberAPI, getMember, updateMember };
+const createMember = async (member) => {
+  try {
+    const { data } = await axios.post(`${url}`, member);
+    console.log("[SUCCESS] CREATE MEMBER");
+    return data;
+  } catch (e) {
+    console.log("[FAIL] CREATE MEMBER");
+  }
+};
+
+export { getMemberAPI, getMember, updateMember, createMember };
 
 const api = {
   getMemberAPI,
   getMember,
   updateMember,
+  createMember,
 };
 
 export default api;
