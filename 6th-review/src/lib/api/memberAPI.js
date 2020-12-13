@@ -43,7 +43,18 @@ const createMember = async (member) => {
   }
 };
 
-export { getMemberAPI, getMember, updateMember, createMember };
+const deleteMember = async (id) => {
+    try{
+        const {data} = await axios.delete(`${url}/${id}`);
+        console.log("[SUCCESS] DELETE MEMBER")
+        return data;
+    }
+    catch(e){
+        console.log("[FAIL] DELETE MEMBER");
+    }
+}
+
+export { getMemberAPI, getMember, updateMember, createMember, deleteMember };
 
 const api = {
   getMemberAPI,

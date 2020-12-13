@@ -50,6 +50,13 @@ function MemberList({ history, match }) {
     } catch (error) {}
   };
 
+  const onRemove = (id) => {
+    setMembersState({
+      status: "resolved",
+      members: membersState.members.filter((member) => member.id !== id),
+    });
+  };
+
   switch (membersState.status) {
     case "pending":
       return <Loading />;
@@ -74,7 +81,7 @@ function MemberList({ history, match }) {
           <hr />
           <div className="member-list-content-wrapper">
             {membersState.members.map((member, i) => (
-              <Card key={"card-" + i} memberData={member} />
+              <Card key={"card-" + i} memberData={member} onRemove={onRemove} />
             ))}
             <div className="create-card" onClick={createCard}>
               + New
