@@ -3,32 +3,35 @@ import axios from "axios";
 import "./ContentsList.scss";
 import Card from "../components/card/Card";
 import Loading from "../components/loading/Loading";
+import api from "../lib/api/api";
 
 const ContentsList = (props) => {
   const [contentsState, setContentsState] = useState({
-    content: null,
     status: "idle",
+    content: null,
   });
 
+ 
   useEffect(() => {
     // ***
     (async () => {
-      setContentsState({
-        content: null,
-        status: "pendding",
-      });
       try {
-        const result = await axios.get("http://localhost/data");
-        console.log("promise체크", result);
         setContentsState({
-          content: result.data,
+          status: "pendding",
+          content: null,
+        });
+
+        const result = await api.getContentsAPI();
+        
+        setContentsState({
           status: "resolved",
+          content: result.data,
         });
       } catch (error) {
         console.log(error);
         setContentsState({
-          content: null,
           status: "rejected",
+          content: null,
         });
       }
     })();
