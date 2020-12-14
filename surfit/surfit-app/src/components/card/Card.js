@@ -1,10 +1,14 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import "./Card.scss";
 
-const Card = ({ cardContent }) => {
+const Card = ({ cardContent, history }) => {
   return (
     <>
-      <div className="cardWrapper">
+      <div
+        className="cardWrapper"
+        onClick={() => history.push(`/contents/${cardContent.id}`)}
+      >
         <img
           className="card__content__img"
           src={cardContent.contentUrl}
@@ -26,4 +30,4 @@ const Card = ({ cardContent }) => {
   );
 };
 
-export default Card;
+export default withRouter(Card);

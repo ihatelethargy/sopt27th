@@ -2,7 +2,7 @@ import "./App.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MainHeader from "./components/header/MainHeader";
 import Main from "./pages/Main";
-import ContentsList from "./pages/ContentsList";
+import Contents from "./pages/Contents";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Route component={MainHeader} />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route path="/contents" component={ContentsList} />
+        <Route path="/contents" component={Contents} />
       </Switch>
     </Router>
   );
