@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import "./ContentsList.scss";
 import Card from "../components/card/Card";
 import Loading from "../components/loading/Loading";
@@ -8,30 +7,29 @@ import api from "../lib/api/api";
 const ContentsList = (props) => {
   const [contentsState, setContentsState] = useState({
     status: "idle",
-    content: null,
+    contents: null,
   });
 
- 
   useEffect(() => {
     // ***
     (async () => {
       try {
         setContentsState({
           status: "pendding",
-          content: null,
+          contents: null,
         });
 
         const result = await api.getContentsAPI();
-        
+
         setContentsState({
           status: "resolved",
-          content: result.data,
+          contents: result,
         });
       } catch (error) {
         console.log(error);
         setContentsState({
           status: "rejected",
-          content: null,
+          contents: null,
         });
       }
     })();
@@ -46,7 +44,7 @@ const ContentsList = (props) => {
         <>
           <div className="contentsListWrapper">
             <div className="contentsCardWrapper">
-              {contentsState.content.map((item) => {
+              {contentsState.contents.map((item) => {
                 return <Card cardContent={item} />;
               })}
             </div>

@@ -12,8 +12,18 @@ const getContentsAPI = async () => {
   }
 };
 
-const getContentAPI = async ()
+const getContentAPI = async (id) => {
+  const { data } = await axios.get(`${url}/${id}`);
+  try {
+    console.log("[SUCCESS get Content]");
+    return data;
+  } catch (e) {
+    console.log("[FAIL get Content]");
+  }
+};
 
-export { getContentsAPI };
+export { getContentsAPI, getContentAPI };
+
+const api = { getContentsAPI, getContentAPI };
 
 export default api;
