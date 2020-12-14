@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Loading from "../components/loading/Loading";
 import api from "../lib/api/api";
+import "./ContentsDetail.scss";
 
-const ContentsDetail = ({ match, history }) => {
+const ContentsDetail = ({ match }) => {
   const [contentState, setContentState] = useState({
     status: "idle",
     content: null,
@@ -41,16 +42,23 @@ const ContentsDetail = ({ match, history }) => {
     default:
       return (
         <div className="detail-wrapper">
+          <div className="detail-title">{contentState.content.title}</div>
           <img
             src={contentState.content.contentUrl}
             alt=""
             className="detail-img"
           />
-          <div className="detail-title">{contentState.content.title}</div>
-          <div className="detail-description">
+          <div className="detail-description desc">
             {contentState.content.description}
           </div>
-          <div className="detail-hashtag">{contentState.content.hashtag}</div>
+          <div className="detail-hashtag desc">
+            {contentState.content.hashtag}
+          </div>
+          <input
+            type="text"
+            value={contentState.content.comment}
+            className="detail-comment"
+          />
         </div>
       );
   }
