@@ -31,6 +31,11 @@ const ContentsDetail = ({ match }) => {
     })();
   }, [match.params.id]);
 
+  const onChangeContent = (evt) => {
+    const [name, value] = evt.target;
+    console.log(name, value);
+  };
+
   switch (contentState.status) {
     case "idle":
       return <>idle</>;
@@ -56,8 +61,10 @@ const ContentsDetail = ({ match }) => {
           </div>
           <input
             type="text"
+            name="comment"
             value={contentState.content.comment}
             className="detail-comment"
+            onChange={onChangeContent}
           />
         </div>
       );
