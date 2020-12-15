@@ -23,7 +23,7 @@ const getContentAPI = async (id) => {
 };
 
 const updateContent = async (id, body) => {
-  const { data } = await axios.put(`${url}/${id}`,body);
+  const { data } = await axios.put(`${url}/${id}`, body);
   try {
     console.log("[SUCCESS UPDATE Content]");
     return data;
@@ -32,8 +32,19 @@ const updateContent = async (id, body) => {
   }
 };
 
-export { getContentsAPI, getContentAPI, updateContent };
+const createContent = async (body) => {
+    const {data} = await axios.post(url, body);
+    try {
+        console.log("[SUCCESS CREATE Content]");
+        console.log(data);
+        return data;
+      } catch (e) {
+        console.log("[FAIL CREATE Content]");
+      }
+};
 
-const api = { getContentsAPI, getContentAPI, updateContent };
+export { getContentsAPI, getContentAPI, updateContent, createContent };
+
+const api = { getContentsAPI, getContentAPI, updateContent, createContent };
 
 export default api;

@@ -33,7 +33,6 @@ const ContentsDetail = ({ match }) => {
 
   const onChangeContent = async (evt) => {
     const { name, value } = evt.target;
-    console.log(name, value);
     try {
       await api.updateContent(contentState.content.id, {
         ...contentState.content,

@@ -14,3 +14,21 @@
   margin: 0 -8px;
 }
 
+.create-card {
+  height: 400px;
+  border-radius: 10px;
+  background-color: #24272b;
+  transform: translateY(0);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    span {
+      font-size: 20px;
+    }
+    transform: translateY(-2%);
+    transition: transform 0.2s ease-in-out;
+  }
+}
