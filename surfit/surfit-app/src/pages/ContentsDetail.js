@@ -31,9 +31,22 @@ const ContentsDetail = ({ match }) => {
     })();
   }, [match.params.id]);
 
-  const onChangeContent = (evt) => {
-    const [name, value] = evt.target;
+  const onChangeContent = async (evt) => {
+    const { name, value } = evt.target;
     console.log(name, value);
+    try {
+      await api.updateContent(contentState.content.id, {
+        ...contentState.content,
+        [name]: value,
+      });
+      setContentState({
+        status: "resolved",
+        content: {
+          ...contentState.content,
+          [name]: value,
+        },
+      });
+    } catch (e) {}
   };
 
   switch (contentState.status) {

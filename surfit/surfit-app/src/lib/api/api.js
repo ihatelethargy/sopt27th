@@ -23,7 +23,7 @@ const getContentAPI = async (id) => {
 };
 
 const updateContent = async (id, body) => {
-  const { data } = await axios.put(`${url}/${id}`);
+  const { data } = await axios.put(`${url}/${id}`,body);
   try {
     console.log("[SUCCESS UPDATE Content]");
     return data;
