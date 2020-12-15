@@ -33,18 +33,41 @@ const updateContent = async (id, body) => {
 };
 
 const createContent = async (body) => {
-    const {data} = await axios.post(url, body);
-    try {
-        console.log("[SUCCESS CREATE Content]");
-        console.log(data);
-        return data;
-      } catch (e) {
-        console.log("[FAIL CREATE Content]");
-      }
+  const { data } = await axios.post(url, body);
+  try {
+    console.log("[SUCCESS CREATE Content]");
+    console.log(data);
+    return data;
+  } catch (e) {
+    console.log("[FAIL CREATE Content]");
+  }
 };
 
-export { getContentsAPI, getContentAPI, updateContent, createContent };
+const deleteContent = async (id) => {
+  const { data } = await axios.delete(`${url}/${id}`);
+  try {
+    console.log("[SUCCESS DELETE Content]");
+    console.log(data);
+    return data;
+  } catch (e) {
+    console.log("[FAIL DELETE Content]");
+  }
+};
 
-const api = { getContentsAPI, getContentAPI, updateContent, createContent };
+export {
+  getContentsAPI,
+  getContentAPI,
+  updateContent,
+  createContent,
+  deleteContent,
+};
+
+const api = {
+  getContentsAPI,
+  getContentAPI,
+  updateContent,
+  createContent,
+  deleteContent,
+};
 
 export default api;

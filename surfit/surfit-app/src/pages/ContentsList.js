@@ -55,6 +55,13 @@ const ContentsList = (props) => {
     }
   };
 
+  const onRemove = (id) => {
+    setContentsState({
+      status: 'resolved',
+      contents: contentsState.contents.filter((content) => content.id !== id)
+    })
+  };
+
   switch (contentsState.status) {
     case "penddint":
       return <Loading />;
@@ -65,7 +72,7 @@ const ContentsList = (props) => {
           <div className="contentsListWrapper">
             <div className="contentsCardWrapper">
               {contentsState.contents.map((item) => {
-                return <Card cardContent={item} />;
+                return <Card cardContent={item} onRemove={onRemove} />;
               })}
               <div className="create-card" onClick={createContent}>
                 <span>+ CREATE NEW CONTENTS</span>

@@ -1,14 +1,26 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
+import { deleteContent } from "../../lib/api/api";
 import "./Card.scss";
 
-const Card = ({ cardContent, history }) => {
+const Card = ({ cardContent, history, onRemove }) => {
+  const onClickDelete = async (evt) => {
+    evt.stopPropagation();
+    try {
+      await deleteContent(cardContent.id);
+    } catch (e) {}
+    onRemove(cardContent.id);
+  };
+
   return (
     <>
       <div
         className="cardWrapper"
         onClick={() => history.push(`/contents/${cardContent.id}`)}
       >
+        <button className="delBtn" onClick={onClickDelete}>
+          X
+        </button>
         <img
           className="card__content__img"
           src={cardContent.contentUrl}
