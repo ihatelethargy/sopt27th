@@ -3,6 +3,13 @@
   align-items: center;
   position: relative;
   width: 100vw;
+  &:hover {
+    .right-arrow,
+    .left-arrow {
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+    }
+  }
   //   border: 1px solid #fff;
 }
 
@@ -27,6 +34,7 @@
 }
 
 .right-arrow {
+  opacity: 0;
   position: absolute;
   top: 50%;
   right: 32px;
@@ -38,6 +46,7 @@
 }
 
 .left-arrow {
+  opacity: 0;
   position: absolute;
   top: 50%;
   left: 32px;
