@@ -31,7 +31,7 @@ const Slider = (props) => {
       }
     })();
   }, []);
-
+  console.log(test.testContent);
   const TestSlider = ({ slides }) => {
     const [current, setCurrent] = useState(0);
     const length = slides.length;

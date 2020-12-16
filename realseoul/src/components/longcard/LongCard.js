@@ -1,8 +1,15 @@
-import React from 'react';
-import './LongCard.scss';
+import React from "react";
+import "./LongCard.scss";
 
-const Longcard = (props) => (
-            
-    );
+const LongCard = ({ idol }) => {
+  return (
+    <div className="longcard-wrapper">
+      <img src={idol.img} alt="idolImg" />
 
-export default Longcard;
+      <div className="longcardTitle">{idol.name}</div>
+      <div className="longcardCount">{idol.count}</div>
+    </div>
+  );
+};
+
+export default LongCard;
