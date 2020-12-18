@@ -57,10 +57,10 @@ const CardGroup = (props) => {
             </div>
             <div className="group-wide-buttons">
               <div>
-                <WideCard />
+                <WideCard text="테스트 만들기" />
               </div>
               <div>
-                <WideCard reverse/>
+                <WideCard text="모든 카테고리 살펴보기" reverse />
               </div>
             </div>
           </div>

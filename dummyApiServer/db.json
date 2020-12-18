@@ -10,7 +10,7 @@
     },
     {
       "id": 1,
-      "name": "이정연ddd",
+      "name": "이정연",
       "profileUrl": "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F160f3ffa-9945-4d89-9e7d-3bcc9341cd96%2FUntitled.png?table=block&id=b65faa1d-a5ec-49a2-8da7-ecb642440a03&width=3840&userId=5dba3764-6635-4f8b-bfbb-b826d262aa7e&cache=v2",
       "introduction": "저도 놀아주세요",
       "mbti": "ENFJ",
@@ -42,35 +42,27 @@
     },
     {
       "id": 6,
-      "name": "정재현",
+      "name": "HIHI",
       "profileUrl": "https://post-phinf.pstatic.net/MjAyMDAxMjhfMTM4/MDAxNTgwMTk5MjQ5NDg1.G4i58SRwMBGo9VYMrvxa1oKnzDrBlMB9zzq2Simd3Lwg.IA9GoThxbq1oS_FeeGMQ07CN-GFkDnlVjzjG1PVpbu8g.JPEG/%EC%98%A4%EB%AA%A9%EB%88%88%EC%9D%B4.JPG?type=w1200",
-      "introduction": "친해지고싶어요",
+      "introduction": "HIHI",
       "mbti": "ENFJ",
       "instagram": "jemian.js"
     },
     {
-      "name": "POST로 새로만들었어요",
+      "name": "New Card",
       "profileUrl": "쌔유아랠",
-      "introduction": "하위하위",
-      "mbti": "tjtj",
-      "instagram": "mamamam",
+      "introduction": "hi",
+      "mbti": "TJTJ",
+      "instagram": "mamama",
       "id": 7
     },
     {
-      "name": "POST로 새로만들었어요",
+      "name": "New Card",
       "profileUrl": "쌔유아랠",
-      "introduction": "하위하위",
-      "mbti": "tjtj",
-      "instagram": "mamamam",
+      "introduction": "hihi",
+      "mbti": "TJTJ",
+      "instagram": "mamama",
       "id": 8
-    },
-    {
-      "name": "POST로 새로만들었어요",
-      "profileUrl": "쌔유아랠",
-      "introduction": "하위하위",
-      "mbti": "tjtj",
-      "instagram": "mamamam",
-      "id": 9
     }
   ]
 }

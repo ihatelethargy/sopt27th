@@ -2,6 +2,7 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 import { deleteContent } from "../../lib/api/api";
 import "./Card.scss";
+import DeleteOutlined from "@ant-design/icons/DeleteOutlined";
 
 const Card = ({ cardContent, history, onRemove }) => {
   const onClickDelete = async (evt) => {
@@ -18,9 +19,6 @@ const Card = ({ cardContent, history, onRemove }) => {
         className="cardWrapper"
         onClick={() => history.push(`/contents/${cardContent.id}`)}
       >
-        <button className="delBtn" onClick={onClickDelete}>
-          X
-        </button>
         <img
           className="card__content__img"
           src={cardContent.contentUrl}
@@ -34,7 +32,10 @@ const Card = ({ cardContent, history, onRemove }) => {
             {cardContent.description}
           </div>
           <div className="card__content__hashtag card_font">
-            {cardContent.hashtag}
+            <span>{cardContent.hashtag}</span>
+            <button className="delBtn" onClick={onClickDelete}>
+              <DeleteOutlined />
+            </button>
           </div>
         </div>
       </div>
