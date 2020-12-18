@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: center;
   padding: 0 12vw;
+  padding-bottom: 5vw;
+  // border: 1px solid red;
+  margin-bottom: 8vw;
 }
 
 .group-intro {
@@ -36,7 +39,6 @@
 }
 
 .group-wide-buttons {
-  
   width: 23vw;
   display: grid;
   grid-template-columns: 1fr;

@@ -1,0 +1,35 @@
+.pillcard-wrapper {
+  margin-right: 10px;
+  border-radius: 15px;
+  height: 20vh;
+  width: 25vw;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 4px 10px 15px 5px rgba(0, 0, 0, 0.33);
+  cursor: pointer;
+  &:hover {
+    box-shadow: 1px 0px 15px 5px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s ease-in-out;
+  }
+  img {
+    display: block;
+    width: 70%;
+    height: 40%;
+  }
+  .pillcardEmoji {
+    font-size: 32px;
+  }
+  .pillcardTitle {
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+  }
+
+  .pillcardCount {
+    font-size: 17px;
+    color: gray;
+  }
+}

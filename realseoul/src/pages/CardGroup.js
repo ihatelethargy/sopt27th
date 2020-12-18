@@ -3,6 +3,7 @@ import Longcard from "../components/longcard/LongCard";
 import WideCard from "../components/widecard/WideCard";
 import "./CardGroup.scss";
 import api from "../lib/api/api";
+import SlideUp from "../components/slideup/SlideUp";
 
 const CardGroup = (props) => {
   const [idolData, setIdolData] = useState({
@@ -42,29 +43,34 @@ const CardGroup = (props) => {
     case "resolved":
     default:
       return (
-        <div className="cardgroup">
-          <div className="group-intro">
-            <span className="group-title">아이돌 전주 테스트</span>
-            <span className="group-desc">
-              좋아하는 아이돌의 노래를 전주만 듣고 맞춰보세요!
-            </span>
-          </div>
-          <div className="group-buttons">
-            <div className="group-long-buttons">
-              {idolData.idol.map((item) => {
-                return <Longcard idol={item} />;
-              })}
+        <>
+          <div className="cardgroup">
+            <div className="group-intro">
+              <span className="group-title">아이돌 전주 테스트</span>
+              <span className="group-desc">
+                좋아하는 아이돌의 노래를 전주만 듣고 맞춰보세요!
+              </span>
             </div>
-            <div className="group-wide-buttons">
-              <div>
-                <WideCard text="테스트 만들기" />
+            <div className="group-buttons">
+              <div className="group-long-buttons">
+                {idolData.idol.map((item) => {
+                  return <Longcard idol={item} />;
+                })}
               </div>
-              <div>
-                <WideCard text="모든 카테고리 살펴보기" reverse />
+
+              <div className="group-wide-buttons">
+                <div>
+                  <WideCard text="테스트 만들기" />
+                </div>
+                <div>
+                  <WideCard text="모든 카테고리 살펴보기" reverse />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          
+          <SlideUp />
+        </>
       );
   }
 };

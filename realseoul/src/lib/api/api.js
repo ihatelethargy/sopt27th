@@ -22,8 +22,18 @@ const getIdolAPI = async () => {
   }
 };
 
-export { getTestAPI, getIdolAPI };
+const getContentAPI = async () => {
+  try {
+    const { data } = await axios.get(`${url}/test`);
+    console.log("[SUCCESS get test]", data);
+    return data;
+  } catch (e) {
+    console.log("[FAIL get test]");
+  }
+};
 
-const api = { getTestAPI, getIdolAPI };
+export { getTestAPI, getIdolAPI, getContentAPI };
+
+const api = { getTestAPI, getIdolAPI, getContentAPI };
 
 export default api;
