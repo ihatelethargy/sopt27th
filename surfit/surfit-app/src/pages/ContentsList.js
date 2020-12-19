@@ -3,6 +3,7 @@ import "./ContentsList.scss";
 import Card from "../components/card/Card";
 import Loading from "../components/loading/Loading";
 import api from "../lib/api/api";
+import SlideUp from "../components/slideup/SlideUp";
 
 const ContentsList = (props) => {
   const [contentsState, setContentsState] = useState({
@@ -57,9 +58,9 @@ const ContentsList = (props) => {
 
   const onRemove = (id) => {
     setContentsState({
-      status: 'resolved',
-      contents: contentsState.contents.filter((content) => content.id !== id)
-    })
+      status: "resolved",
+      contents: contentsState.contents.filter((content) => content.id !== id),
+    });
   };
 
   switch (contentsState.status) {
@@ -79,6 +80,7 @@ const ContentsList = (props) => {
               </div>
             </div>
           </div>
+          <SlideUp />
         </>
       );
 

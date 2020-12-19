@@ -6,8 +6,10 @@ const PillCard = ({ contentData }) => {
   return (
     <div className="pillcard-wrapper">
       <div className="pillcardEmoji">{contentData.emoji}</div>
-      <div className="pillcardTitle">{contentData.title}</div>
-      <div className="pillcardCount">{contentData.count}</div>
+      <div className="text">
+        <div className="pillcardTitle">{contentData.title}</div>
+        <div className="pillcardCount">{contentData.count}</div>
+      </div>
     </div>
   );
 };

@@ -78,6 +78,38 @@ const SlideUp = (props) => {
                 </div>
               </section>
             </div>
+
+            <div className="slideUpWrapper reveal">
+              <section>
+                <h1>이런 테스트는 어때요?</h1>
+                <p>BJ추천! 금주의 HOT TEST</p>
+                <div className="cardWrapper">
+                  {content.content.map((item) => {
+                    return (
+                      <div>
+                        <PillCard contentData={item} />
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            </div>
+
+            <div className="slideUpWrapper reveal">
+              <section>
+                <h1>이런 테스트는 어때요?</h1>
+                <p>BJ추천! 금주의 HOT TEST</p>
+                <div className="cardWrapper">
+                  {content.content.map((item) => {
+                    return (
+                      <div>
+                        <PillCard contentData={item} />
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            </div>
           </div>
         </>
       );
